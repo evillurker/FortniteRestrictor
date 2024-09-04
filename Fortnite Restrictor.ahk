@@ -7,6 +7,15 @@
 
 global iniFile := "data\fnrestrict.ini"
 global passwordKey := "https://github.com/evillurker/FortniteRestrictor"  ; Key for encryption/decryption
+if (A_Args[1] = "-silent")
+{
+    ; Load the allowed times from the INI file
+    allowedTimes := LoadAllowedTimes()
+
+    ; Start the timer directly without showing the GUI
+    SetTimer, CheckProcesses, 15000  ; Check every 15 seconds
+    return
+}
 if !FileExist(A_ScriptDir "\data")
     FileCreateDir, %A_ScriptDir%\data
 if !FileExist(A_ScriptDir "\data\fnrestrict.ico")
