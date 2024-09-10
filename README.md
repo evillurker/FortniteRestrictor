@@ -1,10 +1,14 @@
 Game Restrictor is a straightforward application designed to prevent excessive gameplay by managing when addictive games can be played.
 
+Supported Games: Fortnite, World of Warcraft, Minecraft, Leauge of Legends, DOTA2, Grand Theft Auto V
+
 Usage Instructions:
 
 - Initial Setup: The default password is "admin". You are encouraged to change this password upon first use for security reasons.
 
 - Configuring Hours: Set the allowed gaming hours in the format: HH:MM-HH:MM or HH:MM-HH:MM, HH:MM-HH:MM. Each entry should consist of a starting and an ending hour. Note that the starting hour must be earlier than the ending hour, except for 00:00 to accommodate gaming past midnight (e.g., 19:00-23:59 is valid, where 00:00 indicates the start of the next day).
+
+- Configuring Games: Set the games you want to restrict by selecting the checkboxes after typing your password.
 
 - Shortcut Creation: Use the 'Create Shortcut' button to generate a startup shortcut. This will automatically launch Game Restrictor in silent mode when your PC boots.
 
