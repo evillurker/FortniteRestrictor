@@ -7,6 +7,7 @@ Usage Instructions:
 - Initial Setup: The default password is "admin". You are encouraged to change this password upon first use for security reasons.
 
 - Configuring Hours: Set the allowed gaming hours in the format: HH:MM-HH:MM or HH:MM-HH:MM, HH:MM-HH:MM. Each entry should consist of a starting and an ending hour. Note that the starting hour must be earlier than the ending hour, except for 00:00 to accommodate gaming past midnight (e.g., 19:00-23:59 is valid, where 00:00 indicates the start of the next day).
+So if you want your child to play on Friday night, and allow him to continue playing until 2AM that night for example, you'll need to set Friday to end at 23:59 (i.e. 21:00-23:59) and then set Saturday to 00:00-02:00.
 
 - Configuring Games: Set the games you want to restrict by selecting the checkboxes after typing your password.
 
@@ -40,3 +41,7 @@ Apply the Changes:
 
     Click Apply, then OK.
     The changes should take effect immediately, or you may need to restart the computer.
+
+![image](https://github.com/user-attachments/assets/23b9edb2-3e2f-4b58-ba00-b4aed727f6ca)
+
+![image](https://github.com/user-attachments/assets/41923731-1881-4140-ac49-c332e8a22cc4)
