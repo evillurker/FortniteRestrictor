@@ -12,6 +12,7 @@ So if you want your child to play on Friday night, and allow him to continue pla
 - Configuring Games: Set the games you want to restrict by selecting the checkboxes after typing your password.
 
 - Shortcut Creation: Use the 'Create Shortcut' button to generate a startup shortcut. This will automatically launch Game Restrictor in silent mode when your PC boots.
+Silent mode runs with the '-silent' command argument.
 
 - Deleting the Shortcut: If you need to remove the startup shortcut, simply press the 'Create Shortcut' button again. The startup folder will open, allowing you to manually delete the shortcut.
 
